@@ -1,0 +1,299 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.1px;
+}
+
+:root{
+    --primary-color: #eb5757;
+    --secondary-color: #222;
+    --light-color:#f9f9f9;
+    --dark-color: #3333;
+}
+
+header{
+    width: 100vw;
+    height: 150px;
+    position: fixed;
+    background-color: var(--primary-color);
+}
+
+header .covid{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+}
+
+header .covid button{
+    width: 140px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    color: var(--light-color);
+    background-color: var(--primary-color);
+}
+
+header .covid p{
+    font-size: 18px;
+}
+
+header .menu{
+    width: 100%;
+    height: 75px;
+    padding: 0 380px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    color:  var(--light-color);
+}
+
+header .menu div{
+    width:  600px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu div a{
+    height: 35px;
+    width: 60px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 8px;
+    text-decoration: none;
+    display: inline-block;
+    color: var(--light-color);
+    transition: all 0.5s ease;
+}
+
+header .menu div a:hover{
+    background-color: var(--dark-color);
+}
+
+header .menu div button{
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    background-size: 60%;
+    background-position: center;
+    border: none;
+    background-image: url("./carrito.png");
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+header .menu div button span{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 35;
+    text-align: center;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+
+
+
+
+main {
+    width: 100%;
+    padding-top: 150px;
+    
+}
+
+main .pres{
+    height: 545px;
+    display:  flex;
+    text-align: left;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 150px;
+    padding-right: 0px;
+    padding-left: 430px;
+    background-image: url("fondo.jpg");
+    gap: 20px 40px;
+}
+
+main .pres h1{
+    height: 120px;
+    width: 350px;
+    text-align: left;
+    font-size: 55px;
+    color: var(--light-color);
+    
+    
+}
+
+main .pres p{
+    height: 60px;
+    width: 400px;
+    text-align: left;
+    display: flex;
+    color: var(--light-color);
+}
+
+main .pres button{
+    width: 140px;
+    height: 35px;
+    border-radius: 7px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: var(--light-color);
+}
+
+main .sup{
+    height: 720px;
+    padding: 0 380px;
+    display:  flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+}
+
+main .r {
+    width: 100%;
+    height: 150px; 
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+
+main .prod{
+    width: 100%;
+    height: 150px;
+    display:  flex;
+    align-items: center;
+    gap: 50px;
+    background-color: rgb(107, 189, 39);
+}
+
+
+
+
+
+
+
+
+
+
+main .covi{
+    height: 545px;
+    display:  flex;
+    text-align: right;
+    align-content: right;
+    flex-direction: column;
+    padding-top: 150px;
+    padding-right: 0px;
+    padding-left: 1050px;
+    background-image: url("fondo.jpg");
+    gap: 10px 40px;
+}
+
+main .covi h2{
+    height: 120px;
+    width: 500px;
+    text-align: right;
+    font-size: 40px;
+    color: var(--light-color);
+    
+}
+
+main .covi p{
+    height: 80px;
+    width: 500px;
+    text-align: right;
+    justify-content: right;
+    padding-left: 100px;
+    color: var(--light-color);
+}
+
+main .covi button{
+    width: 160px;
+    height: 35px;
+    margin-left: 340px;
+    border-radius: 7px;
+    border: 1px solid #ffffff;
+    background-color: white;
+    color: var(--secondary-color);
+}
+
+
+
+
+main .shop{
+    height: 50px;
+    padding: 0 380px;
+    display:  flex;
+    text-align: left;
+    align-items: flex-end;
+}
+
+main .subshop{
+    height: 50px;
+    padding: 0 380px;
+    font-size: 40px;
+    display:  flex;
+    text-align: left;
+}
+
+
+
+
+
+
+main .prod2{
+    width: 100%;
+    height: 150px;
+    padding: 0 380px;
+    display:  flex;
+    align-items: center;
+    justify-content: space-around;
+}
+main .but
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: var(--secondary-color);
+}
+
+footer .redes{
+    width: 100%;
+    height: 100px;
+    padding: 0 380px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    color:  var(--light-color);
+    background-color: var(--secondary-color);
+    
+}
+
+
+footer .copi{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+}
